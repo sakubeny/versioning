@@ -4,7 +4,7 @@ pipeline {
 
     agent {
         docker {
-            image 'openjdk:11'
+            image 'sakubeny/test'
         }
     }
 
